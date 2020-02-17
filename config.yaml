@@ -1,0 +1,21 @@
+aliYunConf:
+  aliKeyId: ''
+  aliKeySecret: ''
+  # 请填写你的一级域名
+  recordDomain: ''
+  # 请填写你的解析记录
+  recordRr: '*'
+  # 请填写你的记录类型，DDNS请填写A，表示A记录
+  recordType: 'A'
+  # 请填写解析记录ID
+  recordId:
+  # 请填写解析有效生存时间TTL，单位：秒
+  recordTtl: '600'
+
+loggerConf:
+  logLevel: info
+  logPath: logs/log
+  timestampFormat: "2006-01-02 15:04:05.999999999"
+
+cronConf:
+  cronExp: '0/5 * * * * *'
